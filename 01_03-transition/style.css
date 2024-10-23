@@ -20,7 +20,8 @@ button {
     transition: 
         background .3s ease-in, 
         transform .2s .1s ease-in-out
-        border-radius .3s ease-in;
+        border-radius .3s ease-in,
+        font-weight .5s ease-in;
 }
 
 button:hover {
@@ -29,4 +30,5 @@ button:hover {
     color: #353535;
     cursor: pointer;
     border-radius: 20px;
+    font-weight: bolder;
 }
